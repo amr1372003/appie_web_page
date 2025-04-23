@@ -299,7 +299,6 @@ header a{
 
 .info{
     padding: 10px 0 0 10px;
-    color: #0b093b;
 }
 
 .info h3{
@@ -941,9 +940,9 @@ footer {
 
 
 /* -------------------media_query-------------------- */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     body{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     section {
@@ -952,16 +951,6 @@ footer {
 
     header{
         padding: 10px 20px;
-    }
-
-    .navigation a{
-        display: none;
-    }
-
-    .menu-icon{
-        display: block;
-        font-size: 1.5em;
-        cursor: pointer;
     }
 
     .main{
@@ -1012,6 +1001,10 @@ footer {
     .baner-text-2{
         flex-direction: column;
         gap: 20px;
+    }
+
+    .need{
+        padding: 80px 0;
     }
 
     .need h2, p{
@@ -1132,3 +1125,25 @@ footer {
         font-size: 2em;
     }
 }
+
+@media (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
+
+    .navigation a{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .ios, .android {
+        padding: 5px 20px;
+    }
+
+}
+
