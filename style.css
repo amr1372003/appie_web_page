@@ -959,7 +959,7 @@ footer {
     .main{
         flex-direction: column;
         align-items: center;
-        padding: 0 20px;
+        padding: 0;
     }
 
     .main .content {
@@ -1040,7 +1040,7 @@ footer {
     }
 
     .thumb-container .play-button{
-        top: 30%;
+        top: 20%;
     }
 
     .titel-btn{
@@ -1074,10 +1074,6 @@ footer {
 
     .downlode-app p{
         text-align: start;
-    }
-
-    .dawnlode-options{
-        gap: 20px;
     }
 
     .pricing{
