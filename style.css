@@ -943,7 +943,7 @@ footer {
 /* -------------------media_query-------------------- */
 @media (max-width: 480px) {
     body{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     section {
