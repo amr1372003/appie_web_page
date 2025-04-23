@@ -1076,6 +1076,10 @@ footer {
         text-align: start;
     }
 
+    .dawnlode-options .android{
+        margin-right: 0;
+    }
+
     .pricing{
         padding-right: 20px;
     }
